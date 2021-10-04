@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.radixtouch.in/templates/admin/Worksbot/source/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Feb 2021 12:19:25 GMT -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>View all Tickets</title>
+  <!-- Favicon-->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!-- Plugins Core Css -->
+  <link href="assets/css/app.min.css" rel="stylesheet">
+  <!-- Custom Css -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- Theme style. You can choose a theme from css/themes instead of get all themes -->
+  <link href="assets/css/styles/all-themes.css" rel="stylesheet" />
+
+</head>
+
+<body class="light">
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="#" onClick="return false;" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#navbar-collapse" aria-expanded="false"></a>
+        <a href="#" onClick="return false;" class="bars"></a>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="" />
+          <span class="logo-name">Worksbot</span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <a href="#" onClick="return false;" class="sidemenu-collapse">
+              <i class="nav-hdr-btn ti-align-left"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item d-none d-lg-flex">
+            <a href='Dashboard.html'>Home</a>
+          </li>
+          <!-- #END# Full Screen Button -->
+          <!-- #START# Notifications-->
+          <li class="dropdown">
+            <a href="#" onClick="return false;" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <i class="nav-hdr-btn ti-bell"></i>
+              <span class="notify"></span>
+              <span class="heartbeat"></span>
+            </a>
+            <ul class="dropdown-menu pullDown">
+              <li class="header">NOTIFICATIONS</li>
+              <li class="body">
+                <ul class="menu">
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user1.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Sarah Smith</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 14 mins ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user2.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Airi Satou</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 22 mins ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user3.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">John Doe</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 3 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user4.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Ashton Cox</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 2 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user5.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Cara Stevens</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 4 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user6.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Charde Marshall</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 3 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user7.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">John Doe</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> Yesterday
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer">
+                <a href="#" onClick="return false;">View All Notifications</a>
+              </li>
+            </ul>
+          </li>
+          <!-- #END# Notifications-->
+          <li class="dropdown user_profile">
+            <div class="dropdown-toggle" data-toggle="dropdown">
+              <img src="assets/images/user.jpg" alt="user">
+            </div>
+            <ul class="dropdown-menu pullDown">
+              <li class="body">
+                <ul class="user_dw_menu">
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <i class="material-icons">person</i>Profile
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <i class="material-icons">feedback</i>Feedback
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <i class="material-icons">help</i>Help
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" onClick="return false;">
+                      <i class="material-icons">power_settings_new</i>Logout
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <!-- #END# Tasks -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- #Top Bar -->
+  <div>
+    <!-- Left Sidebar -->
+    <aside id="leftsidebar" class="sidebar">
+      <!-- Menu -->
+      <div class="menu">
+        <ul class="list">
+          <li>
+            <div class="sidebar-profile clearfix">
+              <div class="profile-img">
+                <img src="assets/images/usrbig.jpg" alt="profile">
+              </div>
+              <div class="profile-info">
+                <h3>Sarah Deo</h3>
+                <p>Welcome Admin !</p>
+              </div>
+            </div>
+          </li>
+          <li class="header"></li>
+          <li class="nav-item">
+            <a class="nav-link" href="Dashboard.html">
+              <i class="fa fa-home menu-icon"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          </li>
+          <li>
+            <a href="#" onClick="return false;" class="menu-toggle">
+              <i class="fa fas fa-money-bill-alt"></i>
+              <span>Tickets</span>
+            </a>
+            <ul class="ml-menu">
+              <li>
+                <a href="viewalltickets.html">All Tickets</a>
+              </li>
+              <li>
+                <a href="viewalltickets.html">Open Tickets</a>
+              </li>
+              <li>
+                <a href="viewalltickets.html">Closed Tickets</a>
+              </li>
+              <li>
+                <a href="Customfield.html">Custom Fields</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link" href="Department.html">
+              <i class="fa fas fa-shipping-fast"></i>
+              <span class="menu-title">Departments</span>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="Knowledgebase.html">
+              <i class="fa fas fa-book-open"></i>
+              <span class="menu-title">Knowledge Base</span>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="staffs.html">
+              <i class="fa fas fa-user-check"></i>
+              <span class="menu-title">Staffs</span>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="users.html">
+              <i class="fa fas fa-user-friends"></i>
+              <span class="menu-title">Users</span>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="roles.html">
+              <i class="fa fa-shield-alt"></i>
+              <span class="menu-title">Manager Roles</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" onClick="return false;" class="menu-toggle">
+              <i class="fa fas fa-cogs"></i>
+              <span>Settings</span>
+            </a>
+            <ul class="ml-menu">
+              <li>
+                <a href="Dashboard.html">Setting 1</a>
+              </li>
+              <li>
+                <a href="Dashboard.html">Setting 2</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" onClick="return false;" class="menu-toggle">
+              <i class="fa fas fa-cog"></i>
+              <span> Frontend Settings</span>
+            </a>
+            <ul class="ml-menu">
+              <li>
+                <a href="Dashboard.html">Frontend Setting 1</a>
+              </li>
+              <li>
+                <a href="Dashboard.html">Frontend Setting 2</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- #Menu -->
+    </aside>
+    <!-- #END# Left Sidebar -->
+
+    <!--Main-content-Start-->
+    <section class="content">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div class="card">
+                      <div class="header">
+                          <h1>Tickets</h1>
+                          <ul class="header-dropdown m-r--5">
+                           <li class="dropdown">
+                          <a href="Addnewticket.html" class="btn btn-primary">Add New</a>
+                      </div>
+                      <div class="body">
+                          <div class="main-panel">
+                              <div class="content-wrapper">
+                                <div class="body">
+                                  <div class="row clearfix">
+                                       <div class="col-sm-4">
+                                         <div class="form-group mx-sm-2">
+                                           <select class="form-control" id="Department">
+                                             <option selected>All Catagory</option>
+                                             <option>IT</option>
+                                             <option>Domain</option>
+                                             <option>Hosting</option>
+                                             <option>Web Development</option>
+                                             <option>Home Delivery</option>
+                                           </select>
+                                         </div>
+                                       </div>
+                                       <div class="col-sm-4">
+                                         <div class="form-group mx-sm-2">
+                                           <select class="form-control" id="Priority">
+                                             <option selected>All Pinned</option>
+                                             <option>Low</option>
+                                             <option>Medium</option>
+                                             <option>High</option>
+                                           </select>
+                                         </div>
+                                       </div>
+                                       <div class="col-sm-4">
+                                         <div class="form-group mx-sm-2">
+                                           <select class="form-control" id="Status all">
+                                             <option selected>Status all</option>
+                                             <option>Status all</option>
+                                             <option>1</option>
+                                             <option>2</option>
+                                           </select>
+                                         </div>
+                                       </div>
+                                     </div>
+                                   </div>
+                                   <div class="body">
+                                     <div class="table-responsive">
+                                       <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                                         <thead>
+                                           <tr>
+                                             <th>SI.No</th>
+                                             <th>Departmet</th>
+                                             <th>ID</th>
+                                             <th>Title</th>
+                                             <th>Priority</th>
+                                             <th>User</th>
+                                             <th>Status</th>
+                                             <th>Last Updated</th>
+                                             <th>Actions</th>
+                                           </tr>
+                                         </thead>
+                                         <tbody>
+                                           <tr>
+                                             <td class="text-center text-muted">
+                                               4
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Hosting
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               HPRKBH235K
+                                             </td>
+                                             <td class="text-primary">
+                                               Vue,Js Post Multipart Form Data using Axios & Express API
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               low
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               John Doe
+                                             </td>
+                   
+                                             <td>
+                                               <label class="badge badge-warning badge-pill">open</label>
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               2020 09 12, 04:38 PM
+                                             </td>
+                                             <td>
+                                               <a href="#" class="btn btn-primary btn-border-radius waves-effect">Open</a>
+                                               <a href="#" class="btn btn-danger btn-border-radius waves-effect">Close</a>
+                                               <a href="#" class="btn btn-success btn-border-radius waves-effect">Re-assign</a>
+                                             </td>
+                                           </tr>
+                   
+                                           <tr>
+                                             <td class="text-center text-muted">
+                                               3
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Web Development
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               RSLSG4QR18
+                                             </td>
+                                             <td class="text-primary">
+                                               How to install a new theme for Wordpress?
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               high
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Lio Jore
+                                             </td>
+                                             <td>
+                                               <label class="badge badge-success badge-pill">closed</label>
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               2020 04 03, 06:05 PM
+                                             </td>
+                                             <td>
+                                               <a href="#" class="btn btn-danger btn-border-radius waves-effect">Reopen</a>
+                                             </td>
+                                           </tr>
+                                           <tr>
+                                             <td class="text-center text-muted">
+                                               2
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Hosting
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               4YDCF1PSLC
+                                             </td>
+                                             <td class="text-primary">
+                                               Do you provide hosting for multiple domains on sahred plans?
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               low
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               User Smith
+                                             </td>
+                                             <td>
+                                               <label class="badge badge-warning badge-pill">open</label>
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               2020 04 03, 06:02 PM
+                                             </td>
+                                             <td>
+                                               <a href="#" class="btn btn-primary btn-border-radius waves-effect">Open</a>
+                                               <a href="#" class="btn btn-danger btn-border-radius waves-effect">Close</a>
+                                               <a href="#" class="btn btn-success btn-border-radius waves-effect">Re-assign</a>
+                                             </td>
+                                           </tr>
+                                           <tr>
+                                             <td class="text-center text-muted">
+                                               5
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Hosting
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               4YDCF1PSLC
+                                             </td>
+                                             <td class="text-primary">
+                                               Do you provide hosting for multiple domains on sahred plans?
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               low
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Stephen
+                                             </td>
+                                             <td>
+                                               <label class="badge badge-warning badge-pill">open</label>
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               2020 04 03, 06:02 PM
+                                             </td>
+                                             <td>
+                                               <a href="#" class="btn btn-primary btn-border-radius waves-effect">Open</a>
+                                               <a href="#" class="btn btn-danger btn-border-radius waves-effect">Close</a>
+                                               <a href="#" class="btn btn-success btn-border-radius waves-effect">Re-assign</a>
+                                             </td>
+                                           </tr>
+                                           <tr>
+                                             <td class="text-center text-muted">
+                                               8
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Hosting
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               4YDCF1PSLC
+                                             </td>
+                                             <td class="text-primary">
+                                               Do you provide hosting for multiple domains on sahred plans?
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               low
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Maxwell
+                                             </td>
+                                             <td>
+                                               <label class="badge badge-warning badge-pill">open</label>
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               2020 04 03, 06:02 PM
+                                             </td>
+                                             <td>
+                                               <a href="#" class="btn btn-primary btn-border-radius waves-effect">Open</a>
+                                               <a href="#" class="btn btn-danger btn-border-radius waves-effect">Close</a>
+                                               <a href="#" class="btn btn-success btn-border-radius waves-effect">Re-assign</a>
+                                             </td>
+                                           </tr>
+                                           <tr>
+                                             <td class="text-center text-muted">
+                                               3
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Web Development
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               RSLSG4QR18
+                                             </td>
+                                             <td class="text-primary">
+                                               How to install a new theme for Wordpress?
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               high
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Lio Jore
+                                             </td>
+                                             <td>
+                                               <label class="badge badge-success badge-pill">closed</label>
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               2020 04 03, 06:05 PM
+                                             </td>
+                                             <td>
+                                               <a href="#" class="btn btn-danger btn-border-radius waves-effect">Reopen</a>
+                                             </td>
+                                           </tr>
+                                           <tr>
+                                             <td class="text-center text-muted">
+                                               8
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Hosting
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               4YDCF1PSLC
+                                             </td>
+                                             <td class="text-primary">
+                                               Do you provide hosting for multiple domains on sahred plans?
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               low
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Maxwell
+                                             </td>
+                                             <td>
+                                               <label class="badge badge-warning badge-pill">open</label>
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               2020 04 03, 06:02 PM
+                                             </td>
+                                             <td>
+                                               <a href="#" class="btn btn-primary btn-border-radius waves-effect">Open</a>
+                                               <a href="#" class="btn btn-danger btn-border-radius waves-effect">Close</a>
+                                               <a href="#" class="btn btn-success btn-border-radius waves-effect">Re-assign</a>
+                                             </td>
+                                           </tr>
+                                           <tr>
+                                             <td class="text-center text-muted">
+                                               3
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Web Development
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               RSLSG4QR18
+                                             </td>
+                                             <td class="text-primary">
+                                               How to install a new theme for Wordpress?
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               high
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               Lio Jore
+                                             </td>
+                                             <td>
+                                               <label class="badge badge-success badge-pill">closed</label>
+                                             </td>
+                                             <td class="text-center text-muted">
+                                               2020 04 03, 06:05 PM
+                                             </td>
+                                             <td>
+                                               <a href="#" class="btn btn-danger btn-border-radius waves-effect">Reopen</a>
+                                             </td>
+                                           </tr>
+                   
+                                         </tbody>
+                   
+                                       </table>
+                                     </div>
+                                   </div>
+                                 </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </selection>
+<!--Main-content-End-->
+
+  <!-- Plugins Js -->
+  <script src="assets/js/app.min.js"></script>
+  <scipt src="assets/js/table.min.js"></scipt>
+  <!-- Custom Js -->
+  <script src="assets/js/admin.js"></script>
+  <script src="assets/js/bundles/amcharts4/core.js"></script>
+  <script src="assets/js/bundles/amcharts4/charts.js"></script>
+  <script src="assets/js/bundles/amcharts4/animated.js"></script>
+  <script src="assets/js/pages/index.js"></script>
+  <script src="assets/js/table.min.js"></script>
+  <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+
+  <!-- Demo Js -->
+</body>
+
+</html>
